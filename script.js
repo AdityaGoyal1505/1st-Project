@@ -214,24 +214,33 @@ btn12.addEventListener('click',function(){
 
 let i=document.querySelector('.i');
 let nv=document.querySelector('.nv');
-let e=document.querySelector('#e');
+let e=document.querySelector('.e');
 let xp=document.querySelector('.xp');
-let q=document.querySelector("#q");
+let q=document.querySelector(".q");
 let ual=document.querySelector('.ual');
 i.addEventListener('click',function(){
     xp.classList.remove('active');
     nv.classList.toggle('active');
     ual.classList.remove('active');
+    i.classList.toggle('active');
+    e.classList.remove('active');
+    q.classList.remove('active');
 })
 
 e.addEventListener('click',function(){
     xp.classList.toggle('active');
     nv.classList.remove('active');
     ual.classList.remove('active');
+    i.classList.remove('active');
+    e.classList.toggle('active');
+    q.classList.remove('active');
 })
 
 q.addEventListener('click',function(){
     xp.classList.remove('active');
     nv.classList.remove('active');
     ual.classList.toggle('active');
+    i.classList.remove('active');
+    e.classList.remove('active');
+    q.classList.toggle('active');
 })
