@@ -218,29 +218,48 @@ let e=document.querySelector('.e');
 let xp=document.querySelector('.xp');
 let q=document.querySelector(".q");
 let ual=document.querySelector('.ual');
+let c=document.querySelector(".c");
+let co=document.querySelector('.co');
 i.addEventListener('click',function(){
     xp.classList.remove('active');
     nv.classList.toggle('active');
     ual.classList.remove('active');
+    co.classList.remove('active');
     i.classList.toggle('active');
     e.classList.remove('active');
     q.classList.remove('active');
+    c.classList.remove("active");
 })
 
 e.addEventListener('click',function(){
     xp.classList.toggle('active');
     nv.classList.remove('active');
     ual.classList.remove('active');
+    co.classList.remove('active');
     i.classList.remove('active');
     e.classList.toggle('active');
     q.classList.remove('active');
+    c.classList.remove("active");
 })
 
 q.addEventListener('click',function(){
     xp.classList.remove('active');
     nv.classList.remove('active');
     ual.classList.toggle('active');
+    co.classList.remove('active');
     i.classList.remove('active');
     e.classList.remove('active');
     q.classList.toggle('active');
+    c.classList.remove("active");
+})
+
+c.addEventListener('click',function(){
+    xp.classList.remove('active');
+    nv.classList.remove('active');
+    ual.classList.remove('active');
+    co.classList.toggle('active');
+    i.classList.remove('active');
+    e.classList.remove('active');
+    q.classList.remove('active');
+    c.classList.toggle("active");
 })
