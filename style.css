@@ -170,7 +170,7 @@ img::after{
 .pub{
     height: 100vh;
 }
-.ga,.ph,.con,.pat,.pro,.my,.my1,.my2,.my3,.my4,.my5,.my6,.nv,.xp,.ual{
+.ga,.ph,.con,.pat,.pro,.my,.my1,.my2,.my3,.my4,.my5,.my6,.nv,.xp,.ual,.co{
     display: none;
 }
 .ex{
@@ -192,12 +192,12 @@ img::after{
 .intro.active,.ext.active,.ion.active{
     display: none;
 }
-.my.active,.my1.active,.my2.active,.my3.active,.my4.active,.my5.active,.my6.active,.ga.active,.ph.active,.con.active,.pat.active,.pro.active,.ual.active,.xp.active,.nv.active{
+.my.active,.my1.active,.my2.active,.my3.active,.my4.active,.my5.active,.my6.active,.ga.active,.ph.active,.con.active,.pat.active,.pro.active,.ual.active,.xp.active,.nv.active,.co.active{
     height: 30vh;
     overflow-y: scroll;
     transition: 0.4s;
     display: block;
-    padding-left: 30px;
+    padding-left: 35px;
     padding-right: 10px;
     text-align: justify;
     padding-top: 5px;
@@ -207,7 +207,7 @@ img::after{
     border: 2px solid black;
     border-radius: 5px;
     word-spacing: 5px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     font-size: 20px;
 }
 .ga.active,.ph.active,.con.active,.pat.active,.pro.active{
@@ -276,7 +276,7 @@ img::after{
 .cnt{
     margin-top: -60px;
 }
-.btn1:hover, .btn2:hover, .btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover,.btn9:hover,.btn10:hover,.btn11:hover,.btn12:hover,.q:hover,.e:hover,.i:hover{
+.btn1:hover, .btn2:hover, .btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover,.btn9:hover,.btn10:hover,.btn11:hover,.btn12:hover,.q:hover,.e:hover,.i:hover,.c:hover{
     cursor:pointer;
     padding-bottom: 10px;
     background-color: transparent;
@@ -292,7 +292,7 @@ img::after{
     transition: 0.4s;
     font-weight: bold; */
 }
-.btn1.active,.btn2.active,.btn3.active,.btn4.active,.btn5.active,.btn9.active, .btn10.active, .btn11.active,.btn12.active,.btn6.active,.btn7.active,.btn8.active,.i.active,.q.active,.e.active{
+.btn1.active,.btn2.active,.btn3.active,.btn4.active,.btn5.active,.btn9.active, .btn10.active, .btn11.active,.btn12.active,.btn6.active,.btn7.active,.btn8.active,.i.active,.q.active,.e.active,.c.active{
     background-color: transparent;
     color: black;
     padding-bottom: 15px;
@@ -301,7 +301,7 @@ img::after{
     border-radius: 5px;
     transition: .4s;
 }
-.btn1.active:hover,.btn2.active:hover,.btn3.active:hover,.btn4.active:hover,.btn5.active:hover,.btn6.active:hover,.btn7.active:hover,.btn8.active:hover,.btn9.active:hover,.btn10.active:hover,.btn11.active:hover,.btn12.active:hover,.i.active:hover,.q.active:hover,.e.active:hover{
+.btn1.active:hover,.btn2.active:hover,.btn3.active:hover,.btn4.active:hover,.btn5.active:hover,.btn6.active:hover,.btn7.active:hover,.btn8.active:hover,.btn9.active:hover,.btn10.active:hover,.btn11.active:hover,.btn12.active:hover,.i.active:hover,.q.active:hover,.e.active:hover,.c.active:hover{
     transition: .4s;
     text-decoration: none;
     font-size: 20px;
